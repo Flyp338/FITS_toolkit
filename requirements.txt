@@ -1,0 +1,14 @@
+# Core numerical and scientific computing
+numpy>=1.24.0
+
+# Image visualization and rendering
+matplotlib>=3.7.0
+
+# Optional: FITS validation & reference testing (useful to verify our C/Python custom parser against standard tools)
+astropy>=5.3.0
+
+# C extension build tool (if using scikit-build-core or setuptools for CMake integration)
+setuptools>=68.0.0
+
+# Code quality & testing
+pytest>=7.4.0
